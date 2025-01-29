@@ -64,6 +64,9 @@ const LoginPage = ({ login }) => {
     <div className="min-h-screen flex">
       <div className="w-full max-w-md p-8 m-auto bg-white rounded-lg shadow-xl">
         <h2 className="text-center text-3xl font-extrabold text-gray-900">Welcome Back!</h2>
+        <p className="text-center text-gray-500 mt-2">admin login - admin@example.com(pswrd-adminpass)</p>
+        <p className="text-center text-gray-500 mt-2">teacher login - teacher@example.com(pswrd-teacherpass)</p>
+        <p className="text-center text-gray-500 mt-2">student login - student@example.com(pswrd-studentpass)</p>
         <p className="text-center text-gray-500 mt-2">Enter your account details below</p>
 
         {error && <p className="text-red-500 text-center mt-2">{error}</p>}
